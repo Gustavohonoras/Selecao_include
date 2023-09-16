@@ -14,10 +14,10 @@
     flex-wrap: nowrap;
     justify-content: center;
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ubuntu' ,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #F2F2F2;
+    background-color: white ;
 }
 
   .logo{
@@ -75,7 +75,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    padding: 21px 21px 0px 21px
+    padding: 21px
     }
 
  .fotos {
@@ -89,12 +89,14 @@
  
 .familia{
     max-width: 30%;
+    border-radius: 7px;
  }
 
  .familia:hover {
     border-width: 4px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
+    transform:scale(1.1)
 }
 
  .title1{
@@ -136,7 +138,7 @@
 }
 
   body{
-    background-color:#000000 ;
+    background-image: url(imgs/img6.jpg);
     position: relative;
     line-height: 1.5;
     height:100%;
